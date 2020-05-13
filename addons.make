@@ -1,1 +1,1 @@
-ofxPlayground
+local_addons/ofxPlayground
