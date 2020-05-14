@@ -2,9 +2,9 @@
 
 Final project by Emil Lindfors for course DOM-E5106 Generative Media Coding (Aalto University) in Spring 2020. OpenFrameworks/C++.
 
+![WANDERERS cover image](images/wanderers_cover_image.jpg)
 
-[TODO: screenshot here]
-
+[![WANDERERS youtube](images/wanderers_youtube_preview.png)](https://www.youtube.com/watch?v=5K2bi5a3DL8 "WANDERERS")
 [TODO: video here]
 
 
@@ -23,5 +23,5 @@ Wanderers utilizes an addon called ofxPlayground, which I wrote during the cours
 
     https://github.com/emllnd/ofxplayground
 
-For more of my work check out: (https://emillindfors.com)[https://emillindfors.com]
+For more of my work check out: https://emillindfors.com and https://github.com/emllnd
 
