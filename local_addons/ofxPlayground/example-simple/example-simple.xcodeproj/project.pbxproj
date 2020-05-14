@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		206110BC246D994C0082C4DD /* WanderersCommon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 206110BA246D994B0082C4DD /* WanderersCommon.cpp */; };
-		71BFD3875FE4231C4BA32C3D /* ofxPlaygroundApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 125FCE70CD8B62C705969745 /* ofxPlaygroundApp.cpp */; };
-		7702030CEDDB35D944FEB20E /* ofxPlaygroundHelpers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2090507C1899C59C70267EFD /* ofxPlaygroundHelpers.cpp */; };
-		958C396BC1E4753D942EB6EA /* RectagonScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05F4598641EB89AD3AB7D032 /* RectagonScene.cpp */; };
-		A89F4710EAED8577DC985FA0 /* StrandyScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C0F9E9D19E860A04042952C /* StrandyScene.cpp */; };
-		B8E721C92CEBC03B27BC2E72 /* ofxPlaygroundSceneManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F46040A00E043F42E8CD940 /* ofxPlaygroundSceneManager.cpp */; };
+		0F2E4914F6F5233B343CC400 /* ofxPlaygroundHelpers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2FC63DEFF8A09B51F70CE0C2 /* ofxPlaygroundHelpers.cpp */; };
+		1B9005DD728BDD7DBD7A0196 /* ofxPlaygroundApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03165C4C575DB52A157BC789 /* ofxPlaygroundApp.cpp */; };
+		20CAD273246BE93500103395 /* CircleScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 20CAD26F246BE93400103395 /* CircleScene.cpp */; };
+		20CAD274246BE93500103395 /* BoxScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 20CAD271246BE93400103395 /* BoxScene.cpp */; };
+		C31D66321F4AD909BEDE31E6 /* ofxPlaygroundSceneManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8C7A70C40B1C37F74C2D64F /* ofxPlaygroundSceneManager.cpp */; };
 		E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1D0A3A1BDC003C02F2 /* main.cpp */; };
 		E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */; };
 /* End PBXBuildFile section */
@@ -30,18 +29,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		05F4598641EB89AD3AB7D032 /* RectagonScene.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = RectagonScene.cpp; path = src/scenes/RectagonScene.cpp; sourceTree = SOURCE_ROOT; };
-		125FCE70CD8B62C705969745 /* ofxPlaygroundApp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxPlaygroundApp.cpp; path = local_addons/ofxPlayground/src/ofxPlaygroundApp.cpp; sourceTree = SOURCE_ROOT; };
-		1D97B295EA9DEFE9D8EE340E /* ofxPlaygroundDetectPlatform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxPlaygroundDetectPlatform.h; path = local_addons/ofxPlayground/src/ofxPlaygroundDetectPlatform.h; sourceTree = SOURCE_ROOT; };
-		206110BA246D994B0082C4DD /* WanderersCommon.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = WanderersCommon.cpp; sourceTree = "<group>"; };
-		206110BB246D994C0082C4DD /* WanderersCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WanderersCommon.h; sourceTree = "<group>"; };
-		2090507C1899C59C70267EFD /* ofxPlaygroundHelpers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxPlaygroundHelpers.cpp; path = local_addons/ofxPlayground/src/ofxPlaygroundHelpers.cpp; sourceTree = SOURCE_ROOT; };
-		3C0F9E9D19E860A04042952C /* StrandyScene.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = StrandyScene.cpp; path = src/scenes/StrandyScene.cpp; sourceTree = SOURCE_ROOT; };
-		5F46040A00E043F42E8CD940 /* ofxPlaygroundSceneManager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxPlaygroundSceneManager.cpp; path = local_addons/ofxPlayground/src/ofxPlaygroundSceneManager.cpp; sourceTree = SOURCE_ROOT; };
-		7A7A7FD751171D6C5383247C /* ofxPlaygroundApp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxPlaygroundApp.h; path = local_addons/ofxPlayground/src/ofxPlaygroundApp.h; sourceTree = SOURCE_ROOT; };
-		7E429048DFE0E4CEB4D4274A /* ofxPlaygroundScene.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxPlaygroundScene.h; path = local_addons/ofxPlayground/src/ofxPlaygroundScene.h; sourceTree = SOURCE_ROOT; };
-		7FEFB847968D70CA28EB6B49 /* ofxPlaygroundHelpers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxPlaygroundHelpers.h; path = local_addons/ofxPlayground/src/ofxPlaygroundHelpers.h; sourceTree = SOURCE_ROOT; };
-		B373E3BB921699D37D80ED9E /* ofxPlaygroundSceneManager.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxPlaygroundSceneManager.h; path = local_addons/ofxPlayground/src/ofxPlaygroundSceneManager.h; sourceTree = SOURCE_ROOT; };
+		03165C4C575DB52A157BC789 /* ofxPlaygroundApp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxPlaygroundApp.cpp; path = ../../../addons/ofxPlayground/src/ofxPlaygroundApp.cpp; sourceTree = SOURCE_ROOT; };
+		06547A3E7179B47506D0CABA /* ofxPlaygroundDetectPlatform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxPlaygroundDetectPlatform.h; path = ../../../addons/ofxPlayground/src/ofxPlaygroundDetectPlatform.h; sourceTree = SOURCE_ROOT; };
+		20CAD26F246BE93400103395 /* CircleScene.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = CircleScene.cpp; sourceTree = "<group>"; };
+		20CAD270246BE93400103395 /* CircleScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleScene.h; sourceTree = "<group>"; };
+		20CAD271246BE93400103395 /* BoxScene.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = BoxScene.cpp; sourceTree = "<group>"; };
+		20CAD272246BE93400103395 /* BoxScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoxScene.h; sourceTree = "<group>"; };
+		2FC63DEFF8A09B51F70CE0C2 /* ofxPlaygroundHelpers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxPlaygroundHelpers.cpp; path = ../../../addons/ofxPlayground/src/ofxPlaygroundHelpers.cpp; sourceTree = SOURCE_ROOT; };
+		388D5EC3202FFB706107C9DB /* ofxPlaygroundScene.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxPlaygroundScene.h; path = ../../../addons/ofxPlayground/src/ofxPlaygroundScene.h; sourceTree = SOURCE_ROOT; };
+		4533AAD399B121575123F32E /* ofxPlaygroundHelpers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxPlaygroundHelpers.h; path = ../../../addons/ofxPlayground/src/ofxPlaygroundHelpers.h; sourceTree = SOURCE_ROOT; };
+		7905D17635F8039593E99086 /* ofxPlaygroundSceneManager.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxPlaygroundSceneManager.h; path = ../../../addons/ofxPlayground/src/ofxPlaygroundSceneManager.h; sourceTree = SOURCE_ROOT; };
+		B7701D4444C660B137AC4260 /* ofxPlaygroundApp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxPlaygroundApp.h; path = ../../../addons/ofxPlayground/src/ofxPlaygroundApp.h; sourceTree = SOURCE_ROOT; };
+		C8C7A70C40B1C37F74C2D64F /* ofxPlaygroundSceneManager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxPlaygroundSceneManager.cpp; path = ../../../addons/ofxPlayground/src/ofxPlaygroundSceneManager.cpp; sourceTree = SOURCE_ROOT; };
 		E42962AC2163EDD300A6A9E2 /* ofCamera.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ofCamera.cpp; path = ../../../libs/openFrameworks/3d/ofCamera.cpp; sourceTree = SOURCE_ROOT; };
 		E42962AD2163EDD300A6A9E2 /* ofMesh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ofMesh.h; path = ../../../libs/openFrameworks/3d/ofMesh.h; sourceTree = SOURCE_ROOT; };
 		E42962AE2163EDD300A6A9E2 /* ofNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ofNode.h; path = ../../../libs/openFrameworks/3d/ofNode.h; sourceTree = SOURCE_ROOT; };
@@ -217,14 +216,12 @@
 		E42963712163EDD300A6A9E2 /* ofFmodSoundPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ofFmodSoundPlayer.h; path = ../../../libs/openFrameworks/sound/ofFmodSoundPlayer.h; sourceTree = SOURCE_ROOT; };
 		E42963722163EDD300A6A9E2 /* ofSoundBuffer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ofSoundBuffer.cpp; path = ../../../libs/openFrameworks/sound/ofSoundBuffer.cpp; sourceTree = SOURCE_ROOT; };
 		E42963732163EDD300A6A9E2 /* ofSoundBaseTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ofSoundBaseTypes.h; path = ../../../libs/openFrameworks/sound/ofSoundBaseTypes.h; sourceTree = SOURCE_ROOT; };
-		E4B69B5B0A3A1756003C02F2 /* wanderers-releaseDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wanderers-releaseDebug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4B69B5B0A3A1756003C02F2 /* example-simple-osxDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "example-simple-osxDebug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B69E1D0A3A1BDC003C02F2 /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
 		E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = ofApp.cpp; path = src/ofApp.cpp; sourceTree = SOURCE_ROOT; };
 		E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofApp.h; path = src/ofApp.h; sourceTree = SOURCE_ROOT; };
 		E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "openFrameworks-Info.plist"; sourceTree = "<group>"; };
 		E4EB6923138AFD0F00A09F29 /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
-		F889B722480B5B5A94BB1EBC /* StrandyScene.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = StrandyScene.h; path = src/scenes/StrandyScene.h; sourceTree = SOURCE_ROOT; };
-		FD243BC164F162D8E2D44E30 /* RectagonScene.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = RectagonScene.h; path = src/scenes/RectagonScene.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -238,51 +235,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		16F7A7CC9CF7C51DB1DA4623 /* ofxPlayground */ = {
+		20CAD26E246BE93400103395 /* scenes */ = {
 			isa = PBXGroup;
 			children = (
-				AED254FDD770169FF0001327 /* src */,
+				20CAD26F246BE93400103395 /* CircleScene.cpp */,
+				20CAD270246BE93400103395 /* CircleScene.h */,
+				20CAD271246BE93400103395 /* BoxScene.cpp */,
+				20CAD272246BE93400103395 /* BoxScene.h */,
+			);
+			path = scenes;
+			sourceTree = "<group>";
+		};
+		44A30E27E519702E571996D9 /* ofxPlayground */ = {
+			isa = PBXGroup;
+			children = (
+				69247BA30FDF3F54F5668CAD /* src */,
 			);
 			name = ofxPlayground;
 			sourceTree = "<group>";
 		};
-		36BF1C038F5AEC4D85473FE4 /* scenes */ = {
+		69247BA30FDF3F54F5668CAD /* src */ = {
 			isa = PBXGroup;
 			children = (
-				FD243BC164F162D8E2D44E30 /* RectagonScene.h */,
-				F889B722480B5B5A94BB1EBC /* StrandyScene.h */,
-				3C0F9E9D19E860A04042952C /* StrandyScene.cpp */,
-				05F4598641EB89AD3AB7D032 /* RectagonScene.cpp */,
+				03165C4C575DB52A157BC789 /* ofxPlaygroundApp.cpp */,
+				B7701D4444C660B137AC4260 /* ofxPlaygroundApp.h */,
+				06547A3E7179B47506D0CABA /* ofxPlaygroundDetectPlatform.h */,
+				2FC63DEFF8A09B51F70CE0C2 /* ofxPlaygroundHelpers.cpp */,
+				4533AAD399B121575123F32E /* ofxPlaygroundHelpers.h */,
+				388D5EC3202FFB706107C9DB /* ofxPlaygroundScene.h */,
+				C8C7A70C40B1C37F74C2D64F /* ofxPlaygroundSceneManager.cpp */,
+				7905D17635F8039593E99086 /* ofxPlaygroundSceneManager.h */,
 			);
-			name = scenes;
+			name = src;
 			sourceTree = "<group>";
 		};
 		6948EE371B920CB800B5AC1A /* local_addons */ = {
 			isa = PBXGroup;
 			children = (
-				16F7A7CC9CF7C51DB1DA4623 /* ofxPlayground */,
 			);
 			name = local_addons;
-			sourceTree = "<group>";
-		};
-		AED254FDD770169FF0001327 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				125FCE70CD8B62C705969745 /* ofxPlaygroundApp.cpp */,
-				7A7A7FD751171D6C5383247C /* ofxPlaygroundApp.h */,
-				1D97B295EA9DEFE9D8EE340E /* ofxPlaygroundDetectPlatform.h */,
-				2090507C1899C59C70267EFD /* ofxPlaygroundHelpers.cpp */,
-				7FEFB847968D70CA28EB6B49 /* ofxPlaygroundHelpers.h */,
-				7E429048DFE0E4CEB4D4274A /* ofxPlaygroundScene.h */,
-				5F46040A00E043F42E8CD940 /* ofxPlaygroundSceneManager.cpp */,
-				B373E3BB921699D37D80ED9E /* ofxPlaygroundSceneManager.h */,
-			);
-			name = src;
 			sourceTree = "<group>";
 		};
 		BB4B014C10F69532006C3DED /* addons */ = {
 			isa = PBXGroup;
 			children = (
+				44A30E27E519702E571996D9 /* ofxPlayground */,
 			);
 			name = addons;
 			sourceTree = "<group>";
@@ -578,19 +575,17 @@
 				E42962AA2163EDD300A6A9E2 /* openFrameworks */,
 				BB4B014C10F69532006C3DED /* addons */,
 				6948EE371B920CB800B5AC1A /* local_addons */,
-				E4B69B5B0A3A1756003C02F2 /* wanderers-releaseDebug.app */,
+				E4B69B5B0A3A1756003C02F2 /* example-simple-osxDebug.app */,
 			);
 			sourceTree = "<group>";
 		};
 		E4B69E1C0A3A1BDC003C02F2 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				206110BA246D994B0082C4DD /* WanderersCommon.cpp */,
-				206110BB246D994C0082C4DD /* WanderersCommon.h */,
+				20CAD26E246BE93400103395 /* scenes */,
 				E4B69E1D0A3A1BDC003C02F2 /* main.cpp */,
 				E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */,
 				E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */,
-				36BF1C038F5AEC4D85473FE4 /* scenes */,
 			);
 			path = src;
 			sourceTree = SOURCE_ROOT;
@@ -598,9 +593,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E4B69B5A0A3A1756003C02F2 /* wanderers-release */ = {
+		E4B69B5A0A3A1756003C02F2 /* example-simple-osx */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "wanderers-release" */;
+			buildConfigurationList = E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "example-simple-osx" */;
 			buildPhases = (
 				E42962A92163ECCD00A6A9E2 /* ShellScript */,
 				E4B69B580A3A1756003C02F2 /* Sources */,
@@ -613,9 +608,9 @@
 			);
 			dependencies = (
 			);
-			name = "wanderers-release";
+			name = "example-simple-osx";
 			productName = myOFApp;
-			productReference = E4B69B5B0A3A1756003C02F2 /* wanderers-releaseDebug.app */;
+			productReference = E4B69B5B0A3A1756003C02F2 /* example-simple-osxDebug.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -624,9 +619,9 @@
 		E4B69B4C0A3A1720003C02F2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0600;
+				LastUpgradeCheck = 0940;
 			};
-			buildConfigurationList = E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "wanderers-release" */;
+			buildConfigurationList = E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "example-simple-osx" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -641,7 +636,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E4B69B5A0A3A1756003C02F2 /* wanderers-release */,
+				E4B69B5A0A3A1756003C02F2 /* example-simple-osx */,
 			);
 		};
 /* End PBXProject section */
@@ -693,14 +688,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				206110BC246D994C0082C4DD /* WanderersCommon.cpp in Sources */,
+				20CAD274246BE93500103395 /* BoxScene.cpp in Sources */,
+				20CAD273246BE93500103395 /* CircleScene.cpp in Sources */,
 				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
 				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
-				A89F4710EAED8577DC985FA0 /* StrandyScene.cpp in Sources */,
-				958C396BC1E4753D942EB6EA /* RectagonScene.cpp in Sources */,
-				71BFD3875FE4231C4BA32C3D /* ofxPlaygroundApp.cpp in Sources */,
-				7702030CEDDB35D944FEB20E /* ofxPlaygroundHelpers.cpp in Sources */,
-				B8E721C92CEBC03B27BC2E72 /* ofxPlaygroundSceneManager.cpp in Sources */,
+				1B9005DD728BDD7DBD7A0196 /* ofxPlaygroundApp.cpp in Sources */,
+				0F2E4914F6F5233B343CC400 /* ofxPlaygroundHelpers.cpp in Sources */,
+				C31D66321F4AD909BEDE31E6 /* ofxPlaygroundSceneManager.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -711,29 +705,51 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
 				COPY_PHASE_STRIP = YES;
 				DEAD_CODE_STRIPPING = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_AUTO_VECTORIZATION = YES;
 				GCC_ENABLE_SSE3_EXTENSIONS = YES;
 				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 3;
 				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "DISTRIBUTION=1";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_UNROLL_LOOPS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
 				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VALUE = NO;
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(OF_CORE_HEADERS)",
 					src,
-					src,
-					src/scenes,
-					local_addons/ofxPlayground/src,
+					../../../addons/ofxPlayground/src,
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_CODE_SIGN_FLAGS = "--deep";
@@ -749,6 +765,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
@@ -758,9 +775,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(OF_CORE_HEADERS)",
 					src,
-					src,
-					src/scenes,
-					local_addons/ofxPlayground/src,
+					../../../addons/ofxPlayground/src,
 				);
 				ICON = "$(ICON_NAME_RELEASE)";
 				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
@@ -772,6 +787,7 @@
 					"$(OF_CORE_FRAMEWORKS)",
 					"$(LIB_OF)",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.openFrameworks.${EXECUTABLE_NAME}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 				baseConfigurationReference = E4EB6923138AFD0F00A09F29;
@@ -782,27 +798,50 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_AUTO_VECTORIZATION = YES;
 				GCC_ENABLE_SSE3_EXTENSIONS = YES;
 				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
 				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VALUE = NO;
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(OF_CORE_HEADERS)",
 					src,
-					src,
-					src/scenes,
-					local_addons/ofxPlayground/src,
+					../../../addons/ofxPlayground/src,
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				ONLY_ACTIVE_ARCH = YES;
@@ -819,28 +858,50 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
 				COPY_PHASE_STRIP = YES;
 				DEAD_CODE_STRIPPING = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_AUTO_VECTORIZATION = YES;
 				GCC_ENABLE_SSE3_EXTENSIONS = YES;
 				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_UNROLL_LOOPS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
 				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VALUE = NO;
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(OF_CORE_HEADERS)",
 					src,
-					src,
-					src/scenes,
-					local_addons/ofxPlayground/src,
+					../../../addons/ofxPlayground/src,
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_CODE_SIGN_FLAGS = "--deep";
@@ -856,6 +917,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
@@ -865,9 +927,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(OF_CORE_HEADERS)",
 					src,
-					src,
-					src/scenes,
-					local_addons/ofxPlayground/src,
+					../../../addons/ofxPlayground/src,
 				);
 				ICON = "$(ICON_NAME_DEBUG)";
 				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
@@ -879,6 +939,7 @@
 					"$(OF_CORE_FRAMEWORKS)",
 					"$(LIB_OF_DEBUG)",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.openFrameworks.${EXECUTABLE_NAME}";
 				PRODUCT_NAME = "$(TARGET_NAME)Debug";
 				WRAPPER_EXTENSION = app;
 			};
@@ -888,6 +949,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
@@ -896,9 +958,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(OF_CORE_HEADERS)",
 					src,
-					src,
-					src/scenes,
-					local_addons/ofxPlayground/src,
+					../../../addons/ofxPlayground/src,
 				);
 				ICON = "$(ICON_NAME_RELEASE)";
 				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
@@ -910,6 +970,7 @@
 					"$(OF_CORE_FRAMEWORKS)",
 					"$(LIB_OF)",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.openFrameworks.${EXECUTABLE_NAME}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 				baseConfigurationReference = E4EB6923138AFD0F00A09F29;
@@ -919,7 +980,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "wanderers-release" */ = {
+		E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "example-simple-osx" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E4B69B4E0A3A1720003C02F2 /* Debug */,
@@ -929,7 +990,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "wanderers-release" */ = {
+		E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "example-simple-osx" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E4B69B600A3A1757003C02F2 /* Debug */,

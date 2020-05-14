@@ -3,6 +3,8 @@
 #include "ofMain.h"
 #include "ofxPlaygroundScene.h"
 
+#include "WanderersCommon.h"
+
 #define NUM_WANDERERS 17
 
 class StrandyScene : public ofxPlaygroundScene {
@@ -20,13 +22,18 @@ class StrandyScene : public ofxPlaygroundScene {
                  float maxDist, float repelAmount);
         void attractWanderersToTargets(float minDist, float maxDist);
         void repelWanderersFromEachOther(float repelTresh, float repelStrength);
-        void drawWanderer(glm::vec2 pos, glm::vec2 dir, int id);
+        //void drawWanderer(glm::vec2 pos, glm::vec2 dir, int id);
 
     ofPolyline line;
+
     glm::vec2 wandererLocs[NUM_WANDERERS];
     glm::vec2 wandererDirs[NUM_WANDERERS];
     float wandererSpeeds[NUM_WANDERERS];
     float wandererDefaultSpeed;
 
     float angle;
+    WanderersCommon common;
+
+    ofParameter<ofColor> strandColor;
+    ofParameter<ofColor> particleColor;
 };

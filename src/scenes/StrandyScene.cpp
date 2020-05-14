@@ -2,6 +2,9 @@
 
 
 void StrandyScene::setup() {
+    strandColor = ofColor(120, 120, 120, 60);
+    particleColor = ofColor(160, 160, 160, 28);
+
     angle = 0.0f;
 
     wandererDefaultSpeed = 2.15f;
@@ -39,9 +42,6 @@ void StrandyScene::draw() {
     // empty areas at left or right edge of screen
     int padding = 300;
 
-    glm::vec4 strandColor = {120, 120, 120, 60};
-    glm::vec4 particleColor = {160, 160, 160, 28};
-
     float windTimeTrack = ofGetElapsedTimef()*0.27f;
     float windStrength =
           ofMap( sin( windTimeTrack ), -1, 1, 24.5f, 46.1f )
@@ -78,14 +78,14 @@ void StrandyScene::draw() {
             windBendStrandsHorizontal(vert,
                 0.33f*ofGetHeight(), windStrength, ofGetHeight()*0.58f);
             repelStrandsFromTargets(vert,
-                190.0f, 181.5f);
+                190.0f, 101.5f/scaleFactor);
         }
 
         // vertically moving particles
         float pFlowSeed = ofNoise(i*1.472)*0.3467f;
         // TODO: glm::vec2 particlePos = pos + {1.3f,0.0f};
         this->drawParticleFlow(
-            cpLine, 263.1f, 32.0f, 6, {1.5f, 4.0f}, particleColor, pFlowSeed);
+            cpLine, 263.1f, 6.0f, 2, {1.5f, 4.0f}, particleColor, pFlowSeed);
 
         // wanderers attract strands but not particles
         // so this force is after drawing particle flow
@@ -102,7 +102,7 @@ void StrandyScene::draw() {
 
     // DRAW WANDERERS
     for (int i=0; i<NUM_WANDERERS; i++) {
-        drawWanderer(wandererLocs[i], wandererDirs[i], i);
+        common.drawWanderer(wandererLocs[i], wandererDirs[i], i, scaleFactor);
     }
 
     // TODO: fullscreen effects..? bloom?
@@ -456,37 +456,5 @@ void StrandyScene::repelWanderersFromEachOther(float repelTresh, float repelStre
             wandererDirs[i].y = ofLerp(dirSum.y, wandererDirs[i].y, 0.25f);
         }
     }
-}
-
-
-void StrandyScene::drawWanderer(glm::vec2 pos, glm::vec2 dir, int id) {
-    ofFill();
-    ofSetColor(240, 240, 240, 140);
-
-    float wAngle = glm::angle(dir, {0,1});
-
-    ofPushMatrix();
-    ofTranslate(pos.x, pos.y);
-    ofRotateRad(wAngle);
-    ofScale(1.0/scaleFactor);
-
-    float wandererTimeTrack = ofGetElapsedTimef()*0.31f;
-
-    int numSpheres = 9;
-    glm::vec2 scatter = {11.0f, 27.0f};
-    float maxRadius = 3.5f;
-    for (int i=0; i<numSpheres; i++) {
-        float x = ofMap(ofNoise(id*0.436+i*0.259+wandererTimeTrack),
-                        0, 1, -scatter.x/2, scatter.x/2);
-        float y = ofMap(ofNoise(id*0.913+i*0.831+wandererTimeTrack),
-                        0, 1, -scatter.y/2, scatter.y/2);
-        float radius = ofMap(ofNoise(id*0.913+wandererTimeTrack),
-                        0, 1, maxRadius*0.2, maxRadius);
-        ofPushMatrix();
-        ofDrawCircle(x, y, radius);
-        ofPopMatrix();
-    }
-
-    ofPopMatrix();
 }
 

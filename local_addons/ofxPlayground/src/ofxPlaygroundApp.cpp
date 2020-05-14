@@ -44,8 +44,8 @@ void ofxPlaygroundApp::update() {
 
 void ofxPlaygroundApp::setupScenes() {
     for (auto scene : sm.scenes) {
-        scene->setup();
         scene->scaleFactor = scaleFactor;
+        scene->setup();
     };
 }
 
