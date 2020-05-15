@@ -1,6 +1,6 @@
 # WANDERERS
 
-WANDERERS allows you to observe the life of little wanderers bustling about through their daily activities. If you so choose, you can also thoroughly disrupt it trough your interactions, much to the surprise of those little creatures. This little application shows a glimpse to two chapters of their endearing world.
+WANDERERS allows you to observe the life of little wanderers bustling about through their daily activities. If you so choose, you can also thoroughly disrupt them trough your interactions, much to the surprise of those little creatures. This application shows a glimpse to two chapters of their endearing world.
 
 
 ![WANDERERS cover image](images/wanderers_cover_image.jpg)
